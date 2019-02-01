@@ -4,3 +4,6 @@ System.out.println(localDate.format(DateTimeFormatter.ofPattern("MM/dd/yyyy")));
 System.out.println(localDate.plusDays(1000l));
 System.out.println( ChronoUnit.MINUTES.between(LocalTime.of(15, 40), localTime));
 
+get local time zone 
+ZoneId.systemDefault()
+
